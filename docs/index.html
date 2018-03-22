@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Local Weather (freeCodeCamp Project)</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Pompiere" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+    
+    <link rel="stylesheet" href="css/style.css">
+  
+  </head>
+
+  <body class="text-center">
+  
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <!-- Title section -->
+      <header class="masthead mb-auto">
+        <h3 class="hide">Current weather in <span id="loc"><!-- Location --></span></h3>
+      </header>
+      
+      <!-- Main section --> 
+      <main role="main" class="inner cover">
+        <div>
+          <h1 id="weatherMain">
+            <!-- Weather main -->
+          </h1>
+          <h5 id="weatherDesc">
+            <!-- Weather description -->
+          </h5>
+        </div>
+        <div class="hide">
+          <img id="weatherIcon" src="" alt="Weather icon">
+          <!-- Weather icon -->
+        </div>
+        <div class="hide">
+          <a href="#" class="btn btn-lg btn-secondary convertTemp" id="temp">
+            <!-- Temperature -->
+          </a>
+        </div>
+      </main>
+  
+      <!-- Footer section -->
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p class="text-center">
+            This page was built by <a href="https://twitter.com/siideemt" target="_blank">@siideemt</a> as a code learning project at <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+  
+    <!-- JavaScript -->
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script>
+    
+    <script  src="js/index.js"></script>
+
+  </body>
+
+</html>
